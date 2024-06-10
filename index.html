@@ -5,10 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MuseGroup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="header">
+        <section class="section-nav">
+            <div class="header-inner container">
+                <a href="#" class="logo-link">
+                    <picture>
+                        <source media="(max-width:500px)" srcset="photo/Logo.png" />
+                        <img class="logo" src="photo/Logo.png" alt="логотип компании MuseGroup">
+                </a>
+                </picture>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Muse Group Frontend Academy</h1>
+                <div class="hero__image">
+                    <p class="hero__text">Our academy offers a transformative learning experience designed to empower
+                        you with the skills and knowledge needed to succeed in the ever-evolving field of frontend
+                        development.</p>
+                    <picture>
+                        <source media="(max-width:500px)" srcset="photo/startImage.png" />
+                        <img class="startImage" src="photo/startImage.png" alt="гитарист в комнате">
+                    </picture>
+                    <p class="hero__additional-text">Are you ready to turn your passion for technology into a thriving
+                        career?</p>
+                    <div class="popup-input">
+                        <input class="js-input-email input-email" type="email" placeholder="Email">
+                        <button class="js-btn-email btn-email">Join 🡢</button>
+                    </div>
+                </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 id="products" class="section__title">Our products</h2>
+                <ul class="products__wrapper ">
+                    <li class="product__item">
+                        <picture>
+                            <source media="(max-width:460px)" srcset="photo/YellowCard.png" />
+                            <source media="(max-width:1024px)" srcset="photo/YellowCard.png" />
+                            <img class="product__img" src="photo/YellowCard.png" alt="yellow card">
+                        </picture>
+                        <p class="product__title">Ultimate Guitar</p>
+                        <p class="product__text">The best platform for music makers to play songs they love. Home to the
+                            world's largest music community.</p>
+                    </li>
+
+                    <li class="product__item">
+                        <picture>
+                            <source media="(max-width:460px)" srcset="photo/BlueCard.png" />
+                            <source media="(max-width:1024px)" srcset="photo/BlueCard.png" />
+                            <img class="product__img" src="photo/BlueCard.png" alt="blue card">
+                        </picture>
+                        <p class="product__title">MuseScore</p>
+                        <p class="product__text">Create, play back, and print sheet music with free open source notation
+                            software.</p>
+                        <a href="#">Read more ></a>
+                    </li>
+
+                    <li class="product__item">
+                        <picture>
+                            <source media="(max-width:460px)" srcset="photo/RedCard.png" />
+                            <source media="(max-width:1024px)" srcset="photo/RedCard.png" />
+                            <img class="product__img" src="photo/RedCard.png" alt="red card">
+                        </picture>
+                        <p class="product__title">MuseScore</p>
+                        <p class="product__text">Create, play back, and print sheet music with free open source notation
+                            software.</p>
+                        <a href="#">Read more ></a>
+
+                    <li class="product__item">
+                        <picture>
+                            <source media="(max-width:460px)" srcset="photo/BlueCard2.png" />
+                            <source media="(max-width:1024px)" srcset="photo/BlueCard2.png" />
+                            <img class="product__img" src="photo/BlueCard2.png" alt="blue card2">
+                        </picture>
+                        <p class="product__title">MuseScore</p>
+                        <p class="product__text">Create, play back, and print sheet music with free open source notation
+                            software.</p>
+                        <a href="#">Read more ></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <section class="section-footer container">
+                <div class="nav_links_footer">
+                    <div class="">
+                        <a href="https://www.instagram.com" target="_blank" class="">
+                            <img src="photo/SocialsInst.png" alt="Instagram">
+                        </a>
+                        <a href="https://desktop.telegram.org" target="_blank" class="">
+                            <img src="photo/SocialsTelegram.png" alt="Telegram">
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="">
+                            <img src="photo/SocialsIn.png" alt="linkedin">
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="">
+                            <img src="photo/SocialsFacebook.png" alt="facebook">
+                        </a>
+                    </div>
+                    <p class="nav__footer_text">You're not just a student - you're part of a vibrant community of
+                        like-minded individuals united by a passion for frontend development. Collaborate, innovate, and
+                        grow alongside fellow learners and industry professionals as you embark on this exciting journey
+                        together.</p>
+                    <div class="nav__footer">
+                        <a href="#" class="nav__footer_link">Help Center</a>
+                        <a href="#" class="nav__footer_link">Privacy Policy</a>
+                        <a href="#" class="nav__footer_link">Terms of Service</a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+
+
+    </main>
+
 
 </body>
 <script src="index.js"></script>

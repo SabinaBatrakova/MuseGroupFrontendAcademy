@@ -1,0 +1,97 @@
+:root {
+    --text-primary-color: #252323;
+    --text-secondary-color: #4b4b4b;
+    --divider-color: #d8d8d8;
+    --bg-color: #eef0f2;
+    --cta-color: #36f;
+    --cta-hover-color: #2b57d9;
+    --accent-color: #f8d57e;
+}
+
+html {
+    scroll-behavior: smooth;
+    padding: 40px 0px;
+    height: 641px;
+}
+
+main {
+    display: block;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 640px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 144px;
+    height: 40px;
+}
+
+.hero {
+    margin-top: 34px;
+    background-color: #C0C0C0;
+    padding: 40px 0px;
+}
+
+.hero__title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.startImage {
+    width: 640px;
+    height: 293px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.hero__additional-text {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.input-email {
+    width: 324px;
+    height: 45px;
+    padding: 0px 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3b3b3b;
+}
+
+.btn-email {
+    border-radius: 8px;
+    padding: 0px 24px;
+    width: 98px;
+    height: 45px;
+    border: none;
+    background: var(--cta-color);
+    text-align: center;
+    color: #fff;
+
+}
