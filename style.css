@@ -41,3 +41,13 @@ body {
     text-align: center;
     /*border: 2px solid green;*/
 }
+
+@media (max-width:767px) {
+    html {
+        /*padding: 24px 0px;*/
+    }
+
+    .container {
+        width: 100%;
+    }
+}

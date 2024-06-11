@@ -3,3 +3,10 @@
     width: 144px;
     height: 40px;
 }
+
+@media (max-width:767px) {
+    .logo {
+        margin-bottom: 24px;
+    }
+
+}

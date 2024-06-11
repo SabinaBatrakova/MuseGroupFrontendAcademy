@@ -36,3 +36,22 @@
 .nav__footer_link:hover {
     opacity: 0.5;
 }
+
+@media (max-width:767px) {
+    .footer {
+        padding: 24px;
+    }
+
+    .nav_links-footer {
+        width: 215px;
+    }
+
+    .nav__footer_text {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+
+    .nav__footer {
+        width: 100%;
+    }
+}
