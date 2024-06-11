@@ -55,7 +55,7 @@
 
         <section class="products">
             <div class="container">
-                <h2 id="products" class="section__title">Our products</h2>
+                <h2 id="products" class="products__title">Our products</h2>
                 <ul class="products__wrapper ">
                     <li class="product__item">
                         <picture>
@@ -63,9 +63,16 @@
                             <source media="(max-width:1024px)" srcset="photo/YellowCard.png" />
                             <img class="product__img" src="photo/YellowCard.png" alt="yellow card">
                         </picture>
-                        <p class="product__title">Ultimate Guitar</p>
-                        <p class="product__text">The best platform for music makers to play songs they love. Home to the
-                            world's largest music community.</p>
+                        <div class="product__text-box">
+                            <p class="product__title">Ultimate Guitar</p>
+                            <p class="product__text">The best platform for music makers to play songs they love. Home to
+                                the
+                                world's largest music community.</p>
+
+                            <div class="product__link">
+                                <a href="#" class="product__item-link">Read more ></a>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="product__item">
@@ -74,10 +81,15 @@
                             <source media="(max-width:1024px)" srcset="photo/BlueCard.png" />
                             <img class="product__img" src="photo/BlueCard.png" alt="blue card">
                         </picture>
-                        <p class="product__title">MuseScore</p>
-                        <p class="product__text">Create, play back, and print sheet music with free open source notation
-                            software.</p>
-                        <a href="#">Read more ></a>
+                        <div class="product__text-box">
+                            <p class="product__title">MuseScore</p>
+                            <p class="product__text">Create, play back, and print sheet music with free open source
+                                notation
+                                software.</p>
+                            <div class="product__link">
+                                <a href="#" class="product__item-link">Read more ></a>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="product__item">
@@ -86,21 +98,27 @@
                             <source media="(max-width:1024px)" srcset="photo/RedCard.png" />
                             <img class="product__img" src="photo/RedCard.png" alt="red card">
                         </picture>
-                        <p class="product__title">MuseScore</p>
-                        <p class="product__text">Create, play back, and print sheet music with free open source notation
-                            software.</p>
-                        <a href="#">Read more ></a>
-
+                        <div class="product__text-box">
+                            <p class="product__title">audio.com</p>
+                            <p class="product__text">The easiest way to share any sound online.</p>
+                            <div class="product__link">
+                                <a href="#" class="product__item-link">Read more ></a>
+                            </div>
+                        </div>
+                    </li>
                     <li class="product__item">
                         <picture>
                             <source media="(max-width:460px)" srcset="photo/BlueCard2.png" />
                             <source media="(max-width:1024px)" srcset="photo/BlueCard2.png" />
                             <img class="product__img" src="photo/BlueCard2.png" alt="blue card2">
                         </picture>
-                        <p class="product__title">MuseScore</p>
-                        <p class="product__text">Create, play back, and print sheet music with free open source notation
-                            software.</p>
-                        <a href="#">Read more ></a>
+                        <div class="product__text-box">
+                            <p class="product__title">Audacity</p>
+                            <p class="product__text">The world's most popular audio editing and recording app.</p>
+                            <div class="product__link">
+                                <a href="#" class="product__item-link">Read more ></a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -108,39 +126,34 @@
 
         <footer class="footer">
             <section class="section-footer container">
-                <div class="nav_links_footer">
-                    <div class="">
-                        <a href="https://www.instagram.com" target="_blank" class="">
-                            <img src="photo/SocialsInst.png" alt="Instagram">
-                        </a>
-                        <a href="https://desktop.telegram.org" target="_blank" class="">
-                            <img src="photo/SocialsTelegram.png" alt="Telegram">
-                        </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="">
-                            <img src="photo/SocialsIn.png" alt="linkedin">
-                        </a>
-                        <a href="https://www.facebook.com" target="_blank" class="">
-                            <img src="photo/SocialsFacebook.png" alt="facebook">
-                        </a>
-                    </div>
-                    <p class="nav__footer_text">You're not just a student - you're part of a vibrant community of
-                        like-minded individuals united by a passion for frontend development. Collaborate, innovate, and
-                        grow alongside fellow learners and industry professionals as you embark on this exciting journey
-                        together.</p>
-                    <div class="nav__footer">
-                        <a href="#" class="nav__footer_link">Help Center</a>
-                        <a href="#" class="nav__footer_link">Privacy Policy</a>
-                        <a href="#" class="nav__footer_link">Terms of Service</a>
-                    </div>
+                <div class="nav_links-footer">
+                    <a href="https://www.instagram.com" target="_blank" class="nav__link-ikon">
+                        <img src="photo/SocialsInst.png" alt="Instagram">
+                    </a>
+                    <a href="https://desktop.telegram.org" target="_blank" class="nav__link-ikon">
+                        <img src="photo/SocialsTelegram.png" alt="Telegram">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="nav__link-ikon">
+                        <img src="photo/SocialsIn.png" alt="linkedin">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="nav__link-ikon">
+                        <img src="photo/SocialsFacebook.png" alt="facebook">
+                    </a>
+                </div>
+                <p class="nav__footer_text">You're not just a student - you're part of a vibrant community of
+                    like-minded individuals united by a passion for frontend development. Collaborate, innovate, and
+                    grow alongside fellow learners and industry professionals as you embark on this exciting journey
+                    together.</p>
+
+                <div class="nav__footer">
+                    <a href="https://support.animaapp.com/en/" class="nav__footer_link">Help Center</a>
+                    <a href="https://forum.animaapp.com/privacy" class="nav__footer_link">Privacy Policy</a>
+                    <a href="https://forum.animaapp.com/tos" class="nav__footer_link">Terms of Service</a>
+                </div>
                 </div>
             </section>
         </footer>
-
-
-
     </main>
-
-
 </body>
 <script src="index.js"></script>
 
